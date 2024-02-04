@@ -1,8 +1,6 @@
 .flex-container {
     display: flex;
     background-color: aliceblue;
-    justify-content: center;
-    align-items: center;
     height: 800px;
 }
 
