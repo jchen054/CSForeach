@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#About_me {
+    order: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
