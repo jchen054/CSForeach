@@ -4,6 +4,8 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     gap: 5px;
+    width: 50%;
+    height: 50%;
 }
 
 .item {
