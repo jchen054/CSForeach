@@ -23,4 +23,5 @@
 .photo {
     flex-grow: 1;
     display: flex;
+    flex-shrink: 1;
 }
