@@ -21,6 +21,8 @@
 }
 
 .photo {
+    height:0;
+    min-height:100%;
     flex-grow: 1;
     display: flex;
     flex-shrink: 1;
