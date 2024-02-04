@@ -21,6 +21,6 @@
     justify-content: center;
 }
 .image {
-    width: 10%;
-    height: 10%;
+    width: 100%;
+    height: auto;
 }
