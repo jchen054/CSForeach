@@ -1,8 +1,8 @@
 .flex-container {
     display: flex;
     background-color: aliceblue;
-    height: 800px;
-    width: 500px;
+    height: 500px;
+    width: 300px;
 }
 
 .item {
