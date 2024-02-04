@@ -3,8 +3,6 @@
     background-color: aliceblue;
     flex-wrap: nowrap;
     justify-content: space-around;
-    gap: 5px;
-    height: 50%;
 }
 
 .item {
@@ -22,6 +20,7 @@
 .sub-container {
     display: flex;
     justify-content: center;
+    height: 50%;
 }
 .image {
     width: 80%;
