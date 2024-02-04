@@ -1,6 +1,5 @@
 .flex-container {
     display: flex;
-    background-color: aliceblue;
     flex-wrap: nowrap;
     justify-content: center;
 }
