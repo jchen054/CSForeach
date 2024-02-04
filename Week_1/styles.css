@@ -20,7 +20,9 @@
 
 .sub-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin: 20px;
+
 }
 .image {
     width: 80%;
