@@ -2,11 +2,12 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
 .item {
-    color( 226, 228, 243 );
+    background-color:bisque;
 }
 
 .about_me {
@@ -20,6 +21,7 @@
 .sub-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .image {
     width: 100%;
