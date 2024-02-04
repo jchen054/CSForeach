@@ -3,7 +3,7 @@
     background-color: aliceblue;
     flex-wrap: nowrap;
     justify-content: space-around;
-    gap: 20px;
+    gap: 5px;
 }
 
 .item {
@@ -18,10 +18,9 @@
     flex-grow: 1;
 }
 
-.photo {
+.sub-container {
+    display: flex;
     flex: 1 1 0;
-    order: 2;
-    height:0;
     width:100%;
     height: 100%;
 }
