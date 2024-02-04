@@ -11,15 +11,18 @@
 }
 
 .about_me {
-    order: 1;
     color: black;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     flex-grow: 1;
 }
 
+
 .sub-container {
-    order: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image {
     width: 80%;
     height: auto;
 }
