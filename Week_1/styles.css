@@ -19,7 +19,7 @@
 }
 
 .sub-container {
-    display: flex;
+    order: 2;
     flex: 1 1 0;
     max-width:5%;
     max-height: 5%;
