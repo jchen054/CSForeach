@@ -22,4 +22,5 @@
     order: 2;
     height:0;
     max-width:100%;
+    overflow: auto;
 }
