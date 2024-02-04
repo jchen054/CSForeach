@@ -20,7 +20,6 @@
 .sub-container {
     display: flex;
     justify-content: center;
-    height: 50%;
 }
 .image {
     width: 80%;
