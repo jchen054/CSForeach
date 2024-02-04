@@ -18,8 +18,8 @@
     flex-grow: 1;
 }
 
-.photo {
+.sub-container {
     order: 2;
-    max-width:100%;
-    max-height: auto;
+    max-width:5%;
+    max-height: 5%;
 }
