@@ -1,11 +1,18 @@
 .flex-container {
     display: flex;
+    background-color: aliceblue;
     flex-flow: row nowrap;
-    justify-content: safe center;
+    justify-content: safe space-around;
     align-items: center;
-    height: 200px
+    height: 800px;
 }
-.About_me {
+
+.item {
+    background-color: rgb(132, 121, 121);
+    border: 2px solid black;
+}
+
+.about_me {
     display: flex;
     order: 0;
     color: black;
@@ -13,7 +20,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.Photo {
+.photo {
     flex: 1;
     display: flex;
 }
