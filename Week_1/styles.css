@@ -2,6 +2,7 @@
     display: flex;
     background-color: aliceblue;
     height: 800px;
+    width: 500px;
 }
 
 .item {
