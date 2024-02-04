@@ -2,6 +2,7 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: safe center;
+    align-items: center;
 }
 .About_me {
     order: 0;
@@ -12,4 +13,6 @@
 
 .Photo {
     flex: 1;
+     width: 100%;
+    height: auto;
 }
