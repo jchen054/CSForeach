@@ -2,7 +2,7 @@
     display: flex;
     background-color: aliceblue;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .item {
