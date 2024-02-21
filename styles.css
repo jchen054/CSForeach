@@ -1,0 +1,25 @@
+#flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#header {
+    display: flex;
+    background-color: rgb(185, 204, 235);
+    font-family:"Calibri", sans-serif;
+}
+
+
+#randomFacts {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(225, 232, 242);
+    align-items: center;
+    width:600px;
+    flex-direction: column;
+    
+}

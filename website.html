@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href=" http://127.0.0.1:5500/favicon.ico">
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <div id = 'flexContainer'>
+        <div id = 'header'>
+            <header>
+                <h1> Generate a random fact! </h1>
+            </header>
+        </div>
+        <div id = 'randomFacts'>
+                <input type="number" id = "numFacts" placeholder = "Enter number of facts" max = "30" min = "1" value = "1"></input>
+                <button id = "Get-a-Random-Fact">Load a Fact</button>
+        </div>
+    </div>
+    <script>
+        const facts = document.getElementById('randomFacts');
+        const button = document.getElementById('Get-a-Random-Fact');
+        const loadFacts = (numRequests) => {
+            const URL = `https://api.api-ninjas.com/v1/facts?limit=${numRequests}&X-Api-Key=7m83h2KY3arwkZqE/dhMoQ==e4fsyFXCbFHdEhU8`;
+            fetch(URL)
+                .then(response => response.json())
+                .then(responseJson => {
+                    for (let {fact} of responseJson ) {
+                        let rfact = document.createElement('p');
+                        rfact.innerText = fact;
+                        randomFacts.append(rfact);
+                    }
+                })
+                .catch(error => console.error(error));
+        }
+        button.addEventListener('click', () => {
+            let requests = document.getElementById('numFacts').value;
+            if (requests >= 1 && requests <= 30 && requests%1 == 0) {
+                console.log(requests);
+                loadFacts(requests);
+            }
+        })
+    </script>
+</body>
+</html>
